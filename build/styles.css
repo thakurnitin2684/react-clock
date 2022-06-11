@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+.time {
+  font-size: 10vw;
+  position: absolute;
+  text-align: center;
+  width: 80%;
+  border-radius: 50px;
+  height: 70%;
+  color: rgb(255, 255, 255);
+
+  backdrop-filter: blur(1px);
+  background-color: rgba(196, 196, 196, 0.548);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeBox {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

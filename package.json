@@ -1,15 +1,18 @@
 {
-  "name": "usestate-hook-practice-completed",
+  "name": "react-clock",
+  "homepage": "https://thakurnitin2684.github.io/react-clock",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "react": "16.8.6",
     "react-animations": "^1.0.0",
     "react-dom": "16.8.6",
     "react-reveal": "^1.2.2",
     "react-scripts": "3.2.0",
+    "save-dev": "^0.0.1-security",
     "styled-components": "^5.3.5"
   },
   "devDependencies": {
@@ -19,7 +22,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",
